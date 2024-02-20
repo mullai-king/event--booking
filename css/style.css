@@ -1,0 +1,45 @@
+.image-container{
+  height: 80vh;
+  width:100%;
+}
+img:hover{
+  box-shadow:0px 0px 10px 3px #888888;
+}
+.image-container img{
+  width:70%;
+  height: fit-content;
+}
+.input-container{
+  width: 100%;
+}
+input{
+  width: 100%;
+}
+input:hover{
+  box-shadow:0px 0px 3px 4px #dbd9d9;
+}
+/* to hide inside input arrow */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.gochi-hand-regular {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+header{
+  font-family: "Gochi Hand", cursive; 
+}
+.event-regstration{
+  text-align: center;
+  font-size: xx-large;
+}
+
+@media screen and (max-width:768px) {
+  .image-container{
+    height: 40vh;
+  }
+}
+
